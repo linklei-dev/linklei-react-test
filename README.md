@@ -11,7 +11,7 @@
     - Aternar entre o tema 'light' e 'dark' quando clicado nos respectivos ícones de sol e lua.
 - Utilize os rescursos de state e/ou global state do react para alterar os temas.
 - Os campos Nome, Email e os botões Salvar, Cancelar não precisam ter funcionalidades implementadas, porém devem ser respectivamente elementos inputs e buttons.
-- Manter uma responsividade adequada para a tela, de acordo com as imabens abaixo.
+- Manter uma responsividade adequada para a tela, de acordo com as imagens abaixo.
 - Aplique os estilos utilizando sass.
 - Aplique as cores exatamente como nas imagens de exemplo.
 - Utilize código legível e bem estruturado.
@@ -39,3 +39,30 @@
     - react
     - react-dom
     - react-scripts
+
+- Variáveis e pré-definições para sass, cores, fontes, etc:
+```sass
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+$family-sans-serif: 'Nunito', sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+```
